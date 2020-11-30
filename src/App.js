@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import TodoList from "./models/TodoList";
+import TodoListView from "./views/TodoListView";
+import TodoEntry from "./views/TOdoEntry";
+import Footerview from "./views/Footerview";
+import ViewStore from "./models/ViewStore";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const ALL_TODOS = "all";
+const ACTIVE_TODOS = "active";
+const COMPLETED_TODOS = "completed";
+export default class App extends Component {
+  render() {
+    const store = new TodoList([]);
+    const viewStore = new ViewStore();
+
+    return (
+      <section class="todoapp">
+        <header class="header">
+          <h1>todos </h1>
+          <TodoEntry todoList={store} />
+        </header>
+        <section class="main">
+          <input id="toggle-all" class="toggle-all" type="checkbox" />
+          <label for="toggle-all">Mark all as complete</label>
+          <TodoListView todoList={store} viewStore={viewStore} />
+        </section>
+        <Footerview todoList={store} viewStore={viewStore} />
+      </section>
+	);
+  }
 }
-
-export default App;
