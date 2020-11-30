@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/maktabkhooneh-todo-mobex-react-6/static/css/main.6cadd3e7.chunk.css",
+    "main.js": "/maktabkhooneh-todo-mobex-react-6/static/js/main.f3cbaec2.chunk.js",
+    "main.js.map": "/maktabkhooneh-todo-mobex-react-6/static/js/main.f3cbaec2.chunk.js.map",
+    "runtime-main.js": "/maktabkhooneh-todo-mobex-react-6/static/js/runtime-main.c78648b3.js",
+    "runtime-main.js.map": "/maktabkhooneh-todo-mobex-react-6/static/js/runtime-main.c78648b3.js.map",
+    "static/js/2.821783ca.chunk.js": "/maktabkhooneh-todo-mobex-react-6/static/js/2.821783ca.chunk.js",
+    "static/js/2.821783ca.chunk.js.map": "/maktabkhooneh-todo-mobex-react-6/static/js/2.821783ca.chunk.js.map",
+    "static/js/3.1046cde9.chunk.js": "/maktabkhooneh-todo-mobex-react-6/static/js/3.1046cde9.chunk.js",
+    "static/js/3.1046cde9.chunk.js.map": "/maktabkhooneh-todo-mobex-react-6/static/js/3.1046cde9.chunk.js.map",
+    "index.html": "/maktabkhooneh-todo-mobex-react-6/index.html",
+    "static/css/main.6cadd3e7.chunk.css.map": "/maktabkhooneh-todo-mobex-react-6/static/css/main.6cadd3e7.chunk.css.map",
+    "static/js/2.821783ca.chunk.js.LICENSE.txt": "/maktabkhooneh-todo-mobex-react-6/static/js/2.821783ca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c78648b3.js",
+    "static/js/2.821783ca.chunk.js",
+    "static/css/main.6cadd3e7.chunk.css",
+    "static/js/main.f3cbaec2.chunk.js"
+  ]
+}
